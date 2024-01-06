@@ -911,8 +911,6 @@ footer {
 .wrapper {
     filter: drop-shadow(5px 7px 8px #826C44);
     position: relative;
-    left: 2.5%;
-    right: 2.5%;
     width: 830.5px;
     border-radius: 5px;
     overflow: hidden;
