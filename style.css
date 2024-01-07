@@ -93,11 +93,11 @@ a {
 @keyframes showG {
     from{
         transform: translate(-50px, 0);
-        filter: blur(25px) drop-shadow(16px 7px 8px #000000);
+        filter: blur(25px) drop-shadow(10px 7px 5px #c48602);
     }to{
         opacity: 1;
         transform: translate(0, 0);
-        filter: blur(0) drop-shadow(16px 7px 8px #000000);
+        filter: blur(0) drop-shadow(8px 7px 5px #c48602);
     }
 }
 
@@ -120,10 +120,10 @@ a {
 @keyframes typing {
     from{
         width: 0;
-        text-shadow: 2px 2px 5px #000000;
+        text-shadow: 2px 2px 5px #c48602;
     }to {
         width: 100%;
-        text-shadow: 2px 2px 5px #000000;
+        text-shadow: 2px 2px 5px #c48602;
     }
 }
 
@@ -139,12 +139,12 @@ a {
         opacity: 0;
         transform: translate(0, 50px);
         filter: blur(25px);
-        text-shadow: 2px 2px 5px #000000;
+        text-shadow: 2px 2px 5px #c48602;
     }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
-        text-shadow: 2px 2px 5px #000000;
+        text-shadow: 2px 2px 5px #c48602;
     }
 }
 
@@ -880,16 +880,16 @@ footer {
     border-bottom: 3px solid;
 }
 
-.vidcon{
+/* .vidcon{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-}
+} */
 
 .vid {
-    width: 50vw;
-    height: 50vh;
+    height: 63.55vh;
+    width: auto;
 }
 
 .container4 {
@@ -903,9 +903,12 @@ footer {
 .image {
     display: flex;
     height: 63.55vh;
-    width: 100vw;
     transition: 2s;
     scroll-behavior: smooth;
+}
+
+.image .vid {
+    width: 50vw;
 }
 
 .wrapper {
@@ -945,21 +948,25 @@ footer {
 }
 
 #slide-8:target ~ .image {
-    margin-left: -700%;
+    margin-left: -699.60%;
 }
 
 #slide-9:target ~ .image {
-    margin-left: -800%;
+    margin-left: -799.50%;
 }
 
 #slide-10:target ~ .image {
-    margin-left: -900%;
+    margin-left: -899.50%;
 }
 
-.navigation .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10 {
+#slide-11:target ~ .image {
+    margin-left: -1000%;
+}
+
+.navigation .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11 {
     display: inline-block;
     position: relative;
-    left: 28.5%;
+    left: 28%;
     height: 25px;
     width: 25px;
     background: #2c1909;
@@ -976,7 +983,8 @@ footer {
 .navigation .slide7:hover, 
 .navigation .slide8:hover, 
 .navigation .slide9:hover, 
-.navigation .slide10:hover {
+.navigation .slide10:hover, 
+.navigation .slide11:hover {
     background: #58370C;
 }
 .card {
