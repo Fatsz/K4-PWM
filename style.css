@@ -334,6 +334,54 @@ a {
     height: 5.3vh;
 }
 
+.pppk {
+    position: absolute;
+    top: 54.8%;
+    left: 18.5%;
+}
+
+.pppk .pppkk {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+}
+
+.pppk .tooltip8 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.tooltip8:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
+.ministudio {
+    position: absolute;
+    top: 57%;
+    left: 20%;
+}
+
+.ministudio .ministudioo {
+    width: 50px;
+    height: 13px;
+    position: absolute;
+}
+
+.ministudio .tooltip7 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.tooltip7:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
     /* Diorama I */
 
 .popup_BoxD1 {
@@ -623,6 +671,89 @@ a {
 }
 
 #popup_Boxlaktasi:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.popup_ministudio {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.Boxministudio-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.Boxministudio-text p {
+    text-align: justify;
+}
+
+#popup_ministudio:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.popup_pppk {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.Boxpppk-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.Boxpppk-text p {
+    text-align: justify;
+}
+
+.popup_pppk button {
+    cursor: pointer;
+    background: #2c1909;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 39%;
+}
+
+#popup_pppk:target {
     z-index: 7;
     opacity: 1;
     transform: translate(50px, 0px);
